@@ -1,0 +1,96 @@
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url("img/background.jpg") center bottom fixed no-repeat;
+  background-size: cover;
+}
+
+.center {
+  position: fixed;
+  width: 660px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin-top: -130px;
+  margin-left: -330px;
+  text-align: left;
+  font-family: "Poppins";
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.center-two {
+  position: fixed;
+  width: 660px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -330px;
+  text-align: left;
+  font-family: "helvetica";
+  font-size: 1em;
+  color: #fff;
+}
+
+.logo {
+  position: fixed;
+  width: 90%;
+  text-align: left;
+  top: 85px;
+  margin: 0;
+  padding: 20px 5% 35px 5%;
+}
+
+h1 {
+  /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+  font-family: "Poppins";
+  font-size: 2em;
+  margin: 0px auto 10px auto;
+  color: #fff;
+}
+
+h2 {
+  /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+  font-size: 1.5em;
+  line-height: 1.4;
+  color: #fff;
+  padding: 0px 0px;
+  margin: 0px auto 25px auto;
+}
+
+p {
+  /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+  font-size: 1.2em;
+  font-family: "helvetica";
+  line-height: 1.6;
+  color: #fff;
+}
+
+nav {
+  position: fixed;
+  font-family: "helvetica";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  text-align: right;
+  width: 90%;
+  padding: 0px 5% 0px 5%;
+  bottom: 0;
+  margin-bottom: 5%;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
